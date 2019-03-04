@@ -1,0 +1,47 @@
+body{
+    padding-left: 10%;
+}
+li{
+    display: inline;
+    width: 100%;
+    padding:10%;
+    
+}
+
+div{
+    display: inline;
+}
+
+p{
+    display:inline;
+    padding-left:30px;
+    font-size: 18px;
+    text-align:center;
+}
+#list, #create{
+    font-size: 30px;
+    background-color:bisque;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: antiquewhite;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+.emailfrom{
+     font-size:18px;
+}
+
+.emailfrom:hover{
+    text-decoration: underline;
+    background-color:coral;
+}
