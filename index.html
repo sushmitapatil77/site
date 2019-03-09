@@ -4,18 +4,37 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js">
+        
+        </script>
         <title>Email App</title>
     </head>
     <body>
         
         <ul>
-            <a id="list" href="#"><li>List</li></a>
-            <a id="create" href="#"><li >Create</li></a>
+            <a id="list"><li>List</li></a>
+            <a id="create"><li >Create</li></a>
         </ul>
         
        <!-- <tb id="email"></tb>-->
-        <div id="body"></div>
+        <div id="listview"></div>
+
+        <div id="displayDetails">
+            <div>From: <p id="from"></p></div><br>
+            <div>Subject: <p id="subject"></p></div><br>
+            <div><p id="message"></p></div><br>
+        </div>
+        
+       <!-- <div id="displayCreate">
+            <p>To: <input type="email" id="in1"></p><br>
+            <p>Subject: <input type="text" id="in1"></p><br>
+            <p>Message: <textarea rows="4" cols="50" name="message" id="textbox">Enter your message here </textarea></p>
+            <button type="submit">Send</button>
+        </div>-->
+        
+        
+        
     </body>
     
-    <script src="script.js"></script>
+    
 </html>

@@ -1,5 +1,6 @@
 body{
-    padding-left: 10%;
+   padding-left: 10%;
+    padding-right: 10%;
 }
 li{
     display: inline;
@@ -45,3 +46,27 @@ a:active{
     text-decoration: underline;
     background-color:coral;
 }
+
+#container{
+    width: 100%;
+}
+
+#textbox{
+    height: 200px;
+    width: 100%;
+}
+
+#in1{
+    width: 5%;
+    clear: both;
+    padding-right: 50%;
+    
+}
+
+#container p{
+    padding-left: 10px;
+}
+
+
+
+
