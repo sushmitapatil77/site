@@ -11,30 +11,52 @@
     </head>
     <body>
         
-        <ul>
-            <a id="list"><li>List</li></a>
-            <a id="create"><li >Create</li></a>
+        <ul id="options">
+            <a id="list" href="#"><li>List</li></a>
+            <a id="create" href="#"><li>Create</li></a>
         </ul>
         
-       <!-- <tb id="email"></tb>-->
-        <div id="listview"></div>
-
-        <div id="displayDetails">
-            <div>From: <p id="from"></p></div><br>
-            <div>Subject: <p id="subject"></p></div><br>
-            <div><p id="message"></p></div><br>
+        <div id="listview">
+            <table id='listdata' class="table-style"></table>
         </div>
-        
-       <!-- <div id="displayCreate">
-            <p>To: <input type="email" id="in1"></p><br>
-            <p>Subject: <input type="text" id="in1"></p><br>
-            <p>Message: <textarea rows="4" cols="50" name="message" id="textbox">Enter your message here </textarea></p>
-            <button type="submit">Send</button>
-        </div>-->
-        
-        
-        
+
+        <div id="displayDetails" style="display: none">
+            <div class="field-horizontal">
+                <div class="field-label">
+                    <label class="label">To</label>
+                </div>
+                <div class="field-body">
+                    <div class="field">
+                        <p class="control">
+                            <input class="input" type="email" id="email">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="field-horizontal">
+                <div class="field-label">
+                    <label class="label">Subject</label>
+                </div>
+                <div class="field-body">
+                    <div class="field">
+                        <p class="control">
+                            <input class="input" type="email" id="subject">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="field-horizontal" style="border-bottom: none">
+                <label class="label">Message</label>
+                <p>
+                <textarea class="textarea" id="text"></textarea>
+                    </p>
+            </div>
+            <div class="bottom-buttons">
+                <button class="button">Prev</button>
+                <button class="button">Next</button>
+            </div>
+        </div>
+
     </body>
-    
-    
+ 
 </html>

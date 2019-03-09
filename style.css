@@ -1,72 +1,101 @@
 body{
-   padding-left: 10%;
-    padding-right: 10%;
+    background-color: #F2F2F2;
 }
+
+#options{
+    width: 100%;
+    margin-left: 22%;
+}
+
+#listview{
+    width: 100%;
+    
+    margin-left: 17%;
+}
+
 li{
     display: inline;
     width: 100%;
-    padding:10%;
-    
+    padding:10%; 
 }
 
-div{
-    display: inline;
-}
-
-p{
-    display:inline;
-    padding-left:30px;
-    font-size: 18px;
-    text-align:center;
-}
 #list, #create{
+    color: white;
     font-size: 30px;
-    background-color:bisque;
+    background-color:#02018B;
+    border: 1px solid black;
 }
 
 a:link{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover{
     text-decoration: underline;
-    background-color: antiquewhite;
 }
 
-a:active{
-    text-decoration: underline;
+#listdata{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 7%;
+    background-color: white;
 }
 
-.emailfrom{
-     font-size:18px;
+#listdata a{
+     color: black;
 }
 
-.emailfrom:hover{
-    text-decoration: underline;
-    background-color:coral;
+#displayDetails{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
 }
 
-#container{
+.field-horizontal{
     width: 100%;
+    margin-right: 20%;
+    border-bottom: 1px solid black;
 }
 
-#textbox{
-    height: 200px;
+.field-label,.field-body,.label{
     width: 100%;
+     margin-left: 2%;
+    margin-right: 2%;
 }
 
-#in1{
-    width: 5%;
-    clear: both;
-    padding-right: 50%;
-    
+#text{
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family:sans-serif;
+    font-size: 14px;
 }
 
-#container p{
-    padding-left: 10px;
+.bottom-buttons{
+    width: 100%;
+    padding-left: 4%;
 }
 
+.button{
+  background-color: #02018B;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
+input{
+    width:80%;
+}
+
+.label{
+ 
+  font-size: 16px;
+  padding-left: 2%;
+}
 
 
