@@ -11,11 +11,15 @@ window.onload=function(){
     function listview(){
         document.getElementById("listview").style.display='block';
         document.getElementById("displayDetails").style.display='none';
+        document.getElementById("buttonDelete").style.display='block';
     }
     
     function createview(){
         document.getElementById("displayDetails").style.display='block';
         document.getElementById("listview").style.display='none';
+        document.getElementById("sendButton").style.display='block';
+        document.getElementById("prevButton").style.display='none';
+        document.getElementById("buttonDelete").style.display='none';
         document.getElementById('email').value='';
         document.getElementById('subject').value='';
         document.getElementById('text').value='';
@@ -59,7 +63,9 @@ listclick();
                    
                     document.getElementById("listview").style.display='none';
                     document.getElementById("displayDetails").style.display='block';
-    
+                    document.getElementById("sendButton").style.display='none';
+                    document.getElementById("prevButton").style.display='block';
+                    document.getElementById("buttonDelete").style.display='none';
                     document.getElementById("email").value=d.from;
                     document.getElementById("subject").value=d.subject;
                     document.getElementById("text").value=d.text;

@@ -13,13 +13,14 @@
     <body>
         
         <ul id="options">
-            <a id="list" href="#"><li>List</li></a>
-            <a id="create" href="#"><li>Create</li></a>
+            <a id="list" href="#"><li>LIST</li></a>
+            <a id="create" href="#"><li>CREATE</li></a>
         </ul>
         
         <div id="listview">
             <table id='listdata' class="table-style"></table>
         </div>
+        <div id="buttonDelete"><button class="button">DELETE</button></div>
 
         <div id="displayDetails" style="display: none">
             <div class="field-horizontal">
@@ -52,9 +53,12 @@
                 <textarea class="textarea" id="text"></textarea>
                     </p>
             </div>
-            <div class="bottom-buttons">
-                <button class="button" id="prev">Prev</button>
-                <button class="button" id="next">Next</button>
+            <div class="bottom-buttons" id="prevButton">
+                <button class="button" id="prev">PREV</button>
+                <button class="button" id="next">NEXT</button>
+            </div>
+            <div class="bottom-buttons" id="sendButton">
+                <button class="button" id="send">SEND</button>
             </div>
         </div>
 
