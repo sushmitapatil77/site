@@ -1,5 +1,8 @@
+
+
 body{
-    background-color: #F2F2F2;
+   background-color: #D4E2E2;
+    
 }
 
 #options{
@@ -22,8 +25,10 @@ li{
 #list, #create{
     color: white;
     font-size: 30px;
-    background-color:#02018B;
-    border: 1px solid black;
+    background-color:#678A72;
+    border-radius: 3px;
+    border: none;
+    transition-duration: 0.4s;
 }
 
 a:link{
@@ -31,45 +36,57 @@ a:link{
     color: white;
 }
 
-a:hover{
-    text-decoration: underline;
+
+
+#list:hover, #create:hover{
+    background-color: white;
+    border-radius: 3px;
+    color: #678A72;
+    border: 2px solid #678A72;
 }
 
 #listdata{
-    border: 1px solid black;
+    border: 1px solid #678A72;
+    border-radius: 3px;
     padding: 10px;
     margin-left: 7%;
     background-color: white;
 }
 
 #listdata a{
-     color: black;
+     color: #46584B;
 }
 
 #displayDetails{
     margin-left: 20%;
     margin-right: 20%;
-    border: 1px solid black;
+    padding: 15px 10px;
+    border: 1px solid #678A72;
+    background-color: white;
+    border-radius: 3px;
+    color: #46584B;
 }
 
 .field-horizontal{
     width: 100%;
     margin-right: 20%;
-    border-bottom: 1px solid black;
 }
 
-.field-label,.field-body,.label{
+.field-body,.label{
     width: 100%;
-     margin-left: 2%;
+    margin-left: 2%;
     margin-right: 2%;
 }
 
 #text{
-    width: 80%;
-    margin-left: 2%;
-    margin-right: 2%;
+     width:80%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #678A72;
+    border-radius: 3px;
+    margin: 15px;
     font-family:sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .bottom-buttons{
@@ -78,7 +95,8 @@ a:hover{
 }
 
 .button{
-  background-color: #02018B;
+  background-color: #678A72;
+  border-radius: 2px;
   border: none;
   color: white;
   text-align: center;
@@ -88,13 +106,23 @@ a:hover{
   cursor: pointer;
 }
 
+.button:hover{
+    background-color: white;
+    border-radius: 3px;
+    color: #02018B;
+    border: 2px solid #678A72;
+}
+
 input{
     width:80%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #678A72;
+    border-radius: 3px;
 }
 
 .label{
- 
-  font-size: 16px;
+  font-size: 20px;
   padding-left: 2%;
 }
 

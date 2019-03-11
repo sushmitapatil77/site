@@ -54,6 +54,7 @@ listclick();
 
                 cell1.onclick=function(e){
                     
+                    
                     var d=data[e.currentTarget.dataset.mailindex];
                    
                     document.getElementById("listview").style.display='none';
@@ -78,6 +79,3 @@ listclick();
         request.send();
         }
 }
-    
-       
-    
